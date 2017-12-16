@@ -27,9 +27,13 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/r5/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
     vendor/oppo/r5/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/oppo/r5/proprietary/bin/qseecomd:system/bin/qseecomd \
+    vendor/oppo/r5/proprietary/bin/radish:system/bin/radish \
     vendor/oppo/r5/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/oppo/r5/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
     vendor/oppo/r5/proprietary/bin/time_daemon:system/bin/time_daemon \
+    vendor/oppo/r5/proprietary/etc/data/dsi_config.xml:system/etc/data/dsi_config.xml \
+    vendor/oppo/r5/proprietary/etc/data/netmgr_config.xml:system/etc/data/netmgr_config.xml \
+    vendor/oppo/r5/proprietary/etc/data/qmi_config.xml:system/etc/data/qmi_config.xml \
     vendor/oppo/r5/proprietary/etc/firmware/cpp_firmware_v1_1_1.fw:system/etc/firmware/cpp_firmware_v1_1_1.fw \
     vendor/oppo/r5/proprietary/etc/firmware/cpp_firmware_v1_1_6.fw:system/etc/firmware/cpp_firmware_v1_1_6.fw \
     vendor/oppo/r5/proprietary/etc/firmware/cpp_firmware_v1_2_0.fw:system/etc/firmware/cpp_firmware_v1_2_0.fw \
@@ -91,7 +95,6 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/r5/proprietary/vendor/lib/libmmcamera2_stats_modules.so:system/vendor/lib/libmmcamera2_stats_modules.so \
     vendor/oppo/r5/proprietary/vendor/lib/libmmcamera2_vpe_module.so:system/vendor/lib/libmmcamera2_vpe_module.so \
     vendor/oppo/r5/proprietary/vendor/lib/libmmcamera2_wnr_module.so:system/vendor/lib/libmmcamera2_wnr_module.so \
-    vendor/oppo/r5/proprietary/vendor/lib/libmmcamera_faceproc.so:system/vendor/lib/libmmcamera_faceproc.so \
     vendor/oppo/r5/proprietary/vendor/lib/libmmcamera_hdr_gb_lib.so:system/vendor/lib/libmmcamera_hdr_gb_lib.so \
     vendor/oppo/r5/proprietary/vendor/lib/libmmcamera_hdr_lib.so:system/vendor/lib/libmmcamera_hdr_lib.so \
     vendor/oppo/r5/proprietary/vendor/lib/libmmcamera_imglib.so:system/vendor/lib/libmmcamera_imglib.so \
@@ -175,6 +178,7 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/r5/proprietary/vendor/lib/libchromatix_s5k5e2_snapshot_fb.so:system/vendor/lib/libchromatix_s5k5e2_snapshot_fb.so \
     vendor/oppo/r5/proprietary/vendor/lib/libchromatix_s5k5e2_video_hd.so:system/vendor/lib/libchromatix_s5k5e2_video_hd.so \
     vendor/oppo/r5/proprietary/vendor/lib/libchromatix_s5k5e2_zsl.so:system/vendor/lib/libchromatix_s5k5e2_zsl.so \
+    vendor/oppo/r5/proprietary/vendor/lib/libmmcamera_faceproc.so:system/vendor/lib/libmmcamera_faceproc.so \
     vendor/oppo/r5/proprietary/vendor/lib/libmmcamera_imx214.so:system/vendor/lib/libmmcamera_imx214.so \
     vendor/oppo/r5/proprietary/vendor/lib/libmmcamera_s5k5e2.so:system/vendor/lib/libmmcamera_s5k5e2.so \
     vendor/oppo/r5/proprietary/vendor/lib/libmmcamera_sonyimx214_eeprom.so:system/vendor/lib/libmmcamera_sonyimx214_eeprom.so
